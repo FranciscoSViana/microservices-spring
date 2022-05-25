@@ -11,13 +11,12 @@ import br.com.fsv.microservice.fornecedor.service.InfoService;
 @RestController
 @RequestMapping("/info")
 public class InfoController {
-	
+
 	@Autowired
 	private InfoService infoService;
 	
 	@RequestMapping("/{estado}")
-	public InfoFornecedor getInfoPorEstado(@PathVariable String estado)  {
-		
+	public InfoFornecedor getInfoPorEstado(@PathVariable String estado) {
 		return infoService.getInfoPorEstado(estado);
 	}
 }
