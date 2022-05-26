@@ -1,4 +1,4 @@
-package br.com.fsv.microservice.fornecedor.service;
+package br.com.fsv.microservice.fornecedor.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
