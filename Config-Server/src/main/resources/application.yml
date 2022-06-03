@@ -8,5 +8,5 @@ spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: c:\workspaces\microservice-repo
+        encrypt:
+          enabled: false
